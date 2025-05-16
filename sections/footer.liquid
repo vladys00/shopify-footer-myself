@@ -1,15 +1,35 @@
-<h1>{{section.settings.copyright}}</h1>
+<h1>{{ section.settings.copyright }}</h1>
 {% schema %}
   {
     "name": "footer",
-    "tag" : "footer",
+    "tag": "footer",
     "limit": 1,
     "settings": [
       {
         "type": "text",
         "id": "copyright",
-        "label" :"Copyright",
+        "label": "Copyright",
         "default": "Add some copyright pls"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "description-text",
+        "name": "Description text",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "title",
+            "default": "Add a title for god sake !"
+          },
+           {
+            "type": "text",
+            "id": "description",
+            "label": "description",
+            "default": "Add a description plssss !"
+          }
+        ]
       }
     ]
 
