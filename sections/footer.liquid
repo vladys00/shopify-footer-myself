@@ -5,7 +5,7 @@
         {%- case block.type -%}
           {%- when 'description-text' -%}
             <h2>{{ block.settings.title }}</h2>
-            <p>{{ block.settings.description }}</p> 
+            <p>{{ block.settings.description }}</p>
         {%- endcase -%}
       </div>
     {%- endfor -%}
@@ -47,6 +47,16 @@
             "id": "description",
             "label": "description",
             "default": "Add a description plssss !"
+          }
+        ]
+      }, {
+        "type": "navigation-menu",
+        "name": "Navigation menu",
+        "settings": [
+          {
+            "type": "link_list",
+            "id": "menu",
+            "label": "Menu"
           }
         ]
       }
