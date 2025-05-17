@@ -7,7 +7,7 @@
             <h2>{{ block.settings.title }}</h2>
             <p>{{ block.settings.description }}</p>
          {%- when 'navigation-menu' -%}
-            <h2>{{ block.settings.title }}</h2>
+            <h2>{{ block.settings.linklist.title }}</h2>
             <ul class="nav-menu">
               {%- for link in linklists[block.settings.menu].links -%}
                 <li>
