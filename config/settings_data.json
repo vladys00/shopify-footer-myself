@@ -152,13 +152,13 @@
           "navigation_menu_EfBNfJ": {
             "type": "navigation-menu",
             "settings": {
-              "menu": "footer"
+              "linklist": "about"
             }
           },
           "navigation_menu_FEFJbY": {
             "type": "navigation-menu",
             "settings": {
-              "menu": "about"
+              "linklist": ""
             }
           }
         },
