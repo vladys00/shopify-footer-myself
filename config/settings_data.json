@@ -154,11 +154,18 @@
             "settings": {
               "menu": "footer"
             }
+          },
+          "navigation_menu_FEFJbY": {
+            "type": "navigation-menu",
+            "settings": {
+              "menu": "about"
+            }
           }
         },
         "block_order": [
           "description_text_cFNfdb",
-          "navigation_menu_EfBNfJ"
+          "navigation_menu_EfBNfJ",
+          "navigation_menu_FEFJbY"
         ],
         "settings": {
           "copyright": "@coding with Vladys"
