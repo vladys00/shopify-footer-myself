@@ -1,3 +1,23 @@
+<div class="container">
+  <div class="block-list">
+    {%- for block in section.blocks -%}
+      <div class="block-item">
+        {%- case block.type -%}
+          {%- when 'description-text' -%}
+            <h2>{{ block.settings.title }}</h2>
+            <p>{{ block.settings.description }}</p> 
+        {%- endcase -%}
+      </div>
+    {%- endfor -%}
+  </div>
+  <ul class="social-media-list">
+    <li>insta</li>
+    <li>facebo</li>
+    <li>Youtube</li>
+  </ul>
+  <div class="footer-aside"></div>
+
+</div>
 <h1>{{ section.settings.copyright }}</h1>
 {% schema %}
   {
@@ -22,8 +42,7 @@
             "id": "title",
             "label": "title",
             "default": "Add a title for god sake !"
-          },
-           {
+          }, {
             "type": "textarea",
             "id": "description",
             "label": "description",
