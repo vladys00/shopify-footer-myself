@@ -160,12 +160,20 @@
             "settings": {
               "linklist": "footer"
             }
+          },
+          "newsletter_EdBeTk": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Newsletter",
+              "description": "Subscribe to get notified about product launches, special offers and company news."
+            }
           }
         },
         "block_order": [
           "description_text_cFNfdb",
           "navigation_menu_EfBNfJ",
-          "navigation_menu_FEFJbY"
+          "navigation_menu_FEFJbY",
+          "newsletter_EdBeTk"
         ],
         "settings": {
           "copyright": "@coding with Vladys"
