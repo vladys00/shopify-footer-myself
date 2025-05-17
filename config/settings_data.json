@@ -141,6 +141,18 @@
       },
       "footer": {
         "type": "footer",
+        "blocks": {
+          "description_text_cFNfdb": {
+            "type": "description-text",
+            "settings": {
+              "title": "About the shop",
+              "description": "Auguste The Label is a boutique Australian brand dreamt up by Byron Bay native Ebony Eagles.\n\nEbony started Auguste with a clear vision: to transcend trends, and instead design future vintage pieces that would be loved for seasons to come."
+            }
+          }
+        },
+        "block_order": [
+          "description_text_cFNfdb"
+        ],
         "settings": {
           "copyright": "@coding with Vladys"
         }
